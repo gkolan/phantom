@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+$logo-font: 'Righteous', cursive;
+
+body {
+  background-color: #efefef;
+}
+
+.app-logo {
+  font-family: $logo-font;
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #563d7c;
+}
+
+.app-bg-white {
+  background: #ffffff;
+}
